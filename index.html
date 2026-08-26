@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samaira Rana — Portfolio</title>
+<meta name="description" content="Samaira Rana — Digital Business &amp; Data Science student in Berlin. Full-stack builder, Scrum Master, and AI tinkerer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="nav-shell">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="#hero"><span class="brand-dot" aria-hidden="true"></span>Samaira Rana</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Toolbox</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#credentials">Credentials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div style="display:flex; align-items:center; gap:0.5rem;">
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"></path></svg>
+      </button>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</div>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section id="hero" class="hero wrap">
+    <div class="hero-blobs" aria-hidden="true">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+      <div class="blob b4"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div>
+        <span class="hero-tape">Open to a Praxissemester · Aug 2026</span>
+        <h1>Hi, I'm Samaira <span class="wave" aria-hidden="true">👋</span></h1>
+        <p class="hero-role"><span data-role-text>Digital Business &amp; Data Science student</span><span class="cursor" aria-hidden="true">▍</span></p>
+        <p class="lede">I build full-stack apps, run agile teams, and get a little too obsessed with side projects — a local AI assistant, an outfit-recommendation engine, and whatever dataset looked interesting that week. Based in Berlin.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">See my projects</a>
+          <a class="btn btn-ghost" data-confetti href="assets/resume/Samaira_Rana_CV_English.pdf" download>Download CV ↓</a>
+        </div>
+        <div class="hero-socials">
+          <a class="icon-btn" href="https://github.com/SamairaRana30" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.17.69-3.84-1.34-3.84-1.34-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.03 11.03 0 0 0 23 11.52C23 5.24 18.27.5 12 .5Z"></path></svg>
+          </a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/samaira-rana-59940a329/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"></path></svg>
+          </a>
+          <a class="icon-btn" href="mailto:ranasamaira404@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"></rect><path d="m3 6.5 9 6.5 9-6.5"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-hidden="true">
+        <div class="dots"><span></span><span></span><span></span></div>
+        <div class="line"><span class="k">const</span> samaira = {</div>
+        <div class="line">&nbsp;&nbsp;base: <span class="s">"Berlin, DE"</span>,</div>
+        <div class="line">&nbsp;&nbsp;studying: <span class="s">"Digital Business &amp; Data Science"</span>,</div>
+        <div class="line">&nbsp;&nbsp;stack: [<span class="s">"Python"</span>, <span class="s">"Flask"</span>, <span class="s">"SQL"</span>],</div>
+        <div class="line">&nbsp;&nbsp;currentlyBuilding: <span class="s">"JARVIS 🤖"</span>,</div>
+        <div class="line">&nbsp;&nbsp;languages: [<span class="s">"EN"</span>, <span class="s">"DE"</span>, <span class="s">"HI"</span>],</div>
+        <div class="line">};</div>
+        <div class="line c">// currently seeking a 5th-sem Praxissemester</div>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+      scroll
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"></path></svg>
+    </a>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">01 · About</span>
+      <h2>A little about me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>I'm a Bachelor's student in Digital Business and Data Science at the University of Europe for Applied Sciences in Potsdam, currently in my 4th semester. I like the parts of tech that most people skip — reading the messy dataset column by column, untangling why a sprint fell apart, or figuring out why a model that should work suddenly doesn't.</p>
+        <p>Most of what's below started as "I wonder if I could build that." That's how JARVIS (a local AI assistant that lives entirely on my machine) and Vogueabulary (an AI stylist built with three teammates) both got started. I'm looking for a 5th-semester Praxissemester starting around March 2027, ideally somewhere that lets me keep building things end-to-end.</p>
+      </div>
+      <div class="fact-grid reveal">
+        <div class="fact-card">
+          <span class="eyebrow">Based in</span>
+          <strong>Berlin, Germany</strong>
+        </div>
+        <div class="fact-card">
+          <span class="eyebrow">Studying</span>
+          <strong>Digital Business &amp; Data Science</strong>
+        </div>
+        <div class="fact-card">
+          <span class="eyebrow">Seeking</span>
+          <strong>Praxissemester, from Mar 2027</strong>
+        </div>
+        <div class="fact-card">
+          <span class="eyebrow">Speaks</span>
+          <strong>English, German, Hindi</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">02 · Toolbox</span>
+      <h2>What I build with</h2>
+      <p>The honest list — including the tools I reach for often, not just the ones that sound impressive.</p>
+    </div>
+
+    <div class="marquee reveal" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-item">
+          <span>Python</span><span class="sep">✦</span><span>Flask</span><span class="sep">✦</span><span>PostgreSQL</span><span class="sep">✦</span><span>pandas</span><span class="sep">✦</span><span>scikit-learn</span><span class="sep">✦</span><span>Ollama / Llama 3</span><span class="sep">✦</span><span>Docker</span><span class="sep">✦</span><span>Git</span><span class="sep">✦</span><span>Agile / Scrum</span><span class="sep">✦</span><span>JavaScript</span>
+        </div>
+        <div class="marquee-item">
+          <span>Python</span><span class="sep">✦</span><span>Flask</span><span class="sep">✦</span><span>PostgreSQL</span><span class="sep">✦</span><span>pandas</span><span class="sep">✦</span><span>scikit-learn</span><span class="sep">✦</span><span>Ollama / Llama 3</span><span class="sep">✦</span><span>Docker</span><span class="sep">✦</span><span>Git</span><span class="sep">✦</span><span>Agile / Scrum</span><span class="sep">✦</span><span>JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-groups reveal">
+      <div class="skill-group" data-c="violet">
+        <h3><span class="dot" aria-hidden="true"></span>Languages &amp; frameworks</h3>
+        <div class="chip-row">
+          <span class="chip">Python</span><span class="chip">Flask</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span><span class="chip">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group" data-c="pink">
+        <h3><span class="dot" aria-hidden="true"></span>Data &amp; AI</h3>
+        <div class="chip-row">
+          <span class="chip">pandas</span><span class="chip">scikit-learn</span><span class="chip">Ollama / Llama 3</span><span class="chip">faster-whisper</span><span class="chip">openWakeWord</span><span class="chip">VADER / TextBlob</span><span class="chip">Rule-based recsys</span>
+        </div>
+      </div>
+      <div class="skill-group" data-c="marigold">
+        <h3><span class="dot" aria-hidden="true"></span>Databases &amp; infra</h3>
+        <div class="chip-row">
+          <span class="chip">PostgreSQL (Supabase)</span><span class="chip">Git / GitHub</span><span class="chip">Docker</span><span class="chip">Render</span>
+        </div>
+      </div>
+      <div class="skill-group" data-c="sky">
+        <h3><span class="dot" aria-hidden="true"></span>Ways of working</h3>
+        <div class="chip-row">
+          <span class="chip">Agile / Scrum</span><span class="chip">Sprint planning</span><span class="chip">Shared codebases</span>
+        </div>
+      </div>
+      <div class="skill-group" data-c="mint">
+        <h3><span class="dot" aria-hidden="true"></span>Everyday tools</h3>
+        <div class="chip-row">
+          <span class="chip">Word</span><span class="chip">Excel</span><span class="chip">PowerPoint</span><span class="chip">Teams</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">03 · Projects</span>
+      <h2>Things I've built &amp; broken</h2>
+      <p>Six projects, roughly ordered by how recently I lost sleep over them.</p>
+    </div>
+
+    <div class="board">
+
+      <!-- JARVIS -->
+      <article class="card reveal" data-c="violet">
+        <div class="tape" aria-hidden="true"></div>
+        <div class="card-top">
+          <h3>JARVIS</h3>
+          <span class="card-meta">Sep 2025 – Present</span>
+        </div>
+        <p class="role"><strong>Local AI personal assistant</strong> · Independent project</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Ollama / Llama 3</span><span class="tag">faster-whisper</span><span class="tag">openWakeWord</span><span class="tag">PyQt6</span>
+        </div>
+        <ul>
+          <li>A privacy-first assistant that runs entirely on my machine: wake-word voice control, an on-device LLM, a HUD dashboard, and 40+ tools — no cloud subscription, no data leaving the laptop</li>
+          <li>Self-healing local LLM pipeline that restarts Ollama on crash and auto-summarizes old conversation turns before the context window fills</li>
+          <li>Bilingual EN/DE voice support that switches languages mid-conversation, plus a 12-file pytest suite</li>
+        </ul>
+        <p class="card-note">Personal build, currently private — happy to walk through it.</p>
+      </article>
+
+      <!-- IDMS -->
+      <article class="card reveal" data-c="sky">
+        <div class="tape" aria-hidden="true"></div>
+        <div class="card-top">
+          <h3>IDMS</h3>
+          <span class="card-meta">Apr – Jun 2026</span>
+        </div>
+        <p class="role"><strong>Scrum Master &amp; DevOps Lead</strong> · University Agile Development course</p>
+        <div class="tag-row">
+          <span class="tag">Flask</span><span class="tag">PostgreSQL</span><span class="tag">Agile/Scrum</span><span class="tag">Docker</span><span class="tag">Render</span>
+        </div>
+        <ul>
+          <li>Ran a 9-person Agile team as Scrum Master across 4 sprints, tracking 453 Jira tickets end-to-end</li>
+          <li>A sprint dropped to 65% velocity when a teammate went unreachable — I rebuilt their module myself and reassigned tickets, and we hit 100% velocity in 3 of the 4 sprints</li>
+          <li>Owned DevOps and backend (JWT/bcrypt auth, Supabase Postgres, CI to Render); shipped to production with ~4,000 migrated member records</li>
+        </ul>
+        <div class="card-links">
+          <a class="card-link" href="https://github.com/SamairaRana30/idms-backend" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.17.69-3.84-1.34-3.84-1.34-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.03 11.03 0 0 0 23 11.52C23 5.24 18.27.5 12 .5Z"></path></svg>
+            Code
+          </a>
+          <a class="card-link" href="https://idms-backend-deu6.onrender.com" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path></svg>
+            Live
+          </a>
+        </div>
+      </article>
+
+      <!-- Vogueabulary -->
+      <article class="card reveal" data-c="pink">
+        <div class="tape" aria-hidden="true"></div>
+        <div class="card-top">
+          <h3>Vogueabulary</h3>
+          <span class="card-meta">May – Jul 2026</span>
+        </div>
+        <p class="role"><strong>AI System Developer</strong> · Team of 4</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Groq / Llama 3.3</span><span class="tag">Claude</span><span class="tag">OAuth</span>
+        </div>
+        <p class="card-note credit">Team project — the codebase lives in a teammate's repo, linked below.</p>
+        <ul>
+          <li>Built the rule-based AI recommendation engine that ranks outfit combinations by weather, occasion, and colour harmony</li>
+          <li>Designed a weighted colour-compatibility model scoring outfits 0–100 across tone families</li>
+          <li>Integrated an AI styling chat assistant plus an LLM outfit verdict, with a rule-based fallback for reliability</li>
+        </ul>
+        <div class="card-links">
+          <a class="card-link" href="https://github.com/janvisanger22-dotcom/VOCABBULARY" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.17.69-3.84-1.34-3.84-1.34-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.03 11.03 0 0 0 23 11.52C23 5.24 18.27.5 12 .5Z"></path></svg>
+            Team repo
+          </a>
+          <a class="card-link" href="https://vogueabulary.onrender.com" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path></svg>
+            Live
+          </a>
+        </div>
+      </article>
+
+      <!-- Video game ratings -->
+      <article class="card reveal" data-c="marigold">
+        <div class="tape" aria-hidden="true"></div>
+        <div class="card-top">
+          <h3>Predicting Video Game Ratings</h3>
+          <span class="card-meta">Aug 2026</span>
+        </div>
+        <p class="role"><strong>Independent ML project</strong></p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">pandas</span><span class="tag">scikit-learn</span>
+        </div>
+        <ul>
+          <li>Predicted whether a game earns a good user rating (≥7/10) from ~16,700 real games, favouring honest evaluation over a headline accuracy number</li>
+          <li>Caught a hidden data bug — 5% of the target column was the literal string "tbd", not a true null — before it could silently corrupt the model</li>
+          <li>Formed a hypothesis for why Random Forest trailed Logistic Regression, tested it, and confirmed it: adding features closed the gap from 5.3 points to 0.4</li>
+        </ul>
+        <p class="card-note">Write-up available on request.</p>
+      </article>
+
+      <!-- iPhone YouTube sentiment -->
+      <article class="card reveal" data-c="mint">
+        <div class="tape" aria-hidden="true"></div>
+        <div class="card-top">
+          <h3>iPhone YouTube Sentiment</h3>
+          <span class="card-meta">Mar – Jul 2025</span>
+        </div>
+        <p class="role"><strong>Data Cleaning &amp; Sentiment Analysis</strong> · Big Data &amp; Analytics course</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">pandas</span><span class="tag">VADER</span><span class="tag">Hadoop Streaming</span>
+        </div>
+        <ul>
+          <li>Owned cleaning and sentiment analysis for 20,234 real YouTube comments from iPhone review/launch videos</li>
+          <li>Built a custom Hadoop Streaming MapReduce job to strip URLs, non-ASCII characters, and stopwords from the raw corpus</li>
+          <li>Found negative sentiment share rose from 18% to 25% between the iPhone 15 and 16 launch-video comment spikes</li>
+        </ul>
+        <p class="card-note">Write-up available on request.</p>
+      </article>
+
+      <!-- Mental health study -->
+      <article class="card reveal" data-c="violet">
+        <div class="tape" aria-hidden="true"></div>
+        <div class="card-top">
+          <h3>Social Media &amp; Student Mental Health</h3>
+          <span class="card-meta">Mar – Jul 2025</span>
+        </div>
+        <p class="role"><strong>Data Analysis Lead</strong> · Qualitative research, team of 4</p>
+        <div class="tag-row">
+          <span class="tag">Qualitative research</span><span class="tag">Thematic analysis</span>
+        </div>
+        <ul>
+          <li>Led analysis for a study on how social media affects university students' mental health</li>
+          <li>Interviewed 10–15 students plus a supplementary survey; identified seven recurring themes, including social comparison, compulsive checking, and body image</li>
+          <li>Synthesized findings into a report with recommendations for student mental health support</li>
+        </ul>
+        <p class="card-note">Research report available on request.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ================= CREDENTIALS ================= -->
+  <section id="credentials" class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">04 · Credentials &amp; beyond</span>
+      <h2>Certifications, languages &amp; the rest</h2>
+    </div>
+    <div class="pill-grid reveal">
+      <div class="pill-card" data-c="violet">
+        <span class="badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"></path><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"></path></svg>
+        </span>
+        <div>
+          <h3>EXIN BCS AI Essentials</h3>
+          <p>Issued Oct 2024 · Credential ID 6601761</p>
+        </div>
+      </div>
+      <div class="pill-card" data-c="sky">
+        <span class="badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20Z"></path></svg>
+        </span>
+        <div>
+          <h3>Languages</h3>
+          <p>English — IELTS 8/9 (C1/C2) · German — A2 · Hindi — Native</p>
+        </div>
+      </div>
+      <div class="pill-card" data-c="pink">
+        <span class="badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 21 1.9-5.7A8.5 8.5 0 1 1 8 19l-5 2Z"></path></svg>
+        </span>
+        <div>
+          <h3>Model United Nations</h3>
+          <p>Delegate for France &amp; Georgia, 2022–2024 — position papers, resolutions, and committee debate</p>
+        </div>
+      </div>
+      <div class="pill-card" data-c="mint">
+        <span class="badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"></path></svg>
+        </span>
+        <div>
+          <h3>NGO VONG — Volunteer</h3>
+          <p>Donation drives and community engagement projects, 2022–2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="wrap">
+    <div class="contact-card reveal">
+      <span class="eyebrow" style="color: var(--mint-bright);">05 · Say hi</span>
+      <h2>Let's build something.</h2>
+      <p>Looking for a Praxissemester student, a project collaborator, or just want to talk about local LLMs and why Random Forest needed more features? My inbox is open.</p>
+      <div class="hero-cta">
+        <button class="btn btn-primary" type="button" data-confetti data-copy-email="ranasamaira404@gmail.com">Copy my email ✉</button>
+        <a class="btn btn-ghost" href="mailto:ranasamaira404@gmail.com">Or just email me</a>
+      </div>
+      <p class="copy-note" data-copy-note aria-live="polite"></p>
+      <div class="hero-socials" style="justify-content:center;">
+        <a class="icon-btn" href="https://github.com/SamairaRana30" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.17.69-3.84-1.34-3.84-1.34-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.03 11.03 0 0 0 23 11.52C23 5.24 18.27.5 12 .5Z"></path></svg>
+        </a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/samaira-rana-59940a329/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"></path></svg>
+        </a>
+      </div>
+      <div style="margin-top:1.6rem; display:flex; gap:0.6rem; justify-content:center; flex-wrap:wrap;">
+        <a class="card-link" style="border-color: color-mix(in srgb, var(--paper) 25%, transparent); color: var(--paper);" href="assets/resume/Samaira_Rana_CV_English.pdf" download>CV — English (PDF)</a>
+        <a class="card-link" style="border-color: color-mix(in srgb, var(--paper) 25%, transparent); color: var(--paper);" href="assets/resume/Samaira_Rana_Lebenslauf_DE.pdf" download>Lebenslauf — Deutsch (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Designed &amp; built by Samaira Rana · <span data-year>2026</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
